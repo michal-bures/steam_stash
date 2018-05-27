@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "declaration": true,
+    "target": "es6",
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noEmitHelpers": true,
+    "strict": true,
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "src"
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
